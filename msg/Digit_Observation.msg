@@ -10,6 +10,7 @@ geometry_msgs/Quaternion base_orientation
 float64[3] base_translation # world frame
 float64[3] base_linear_velocity # body frame
 float64[3] base_angular_velocity # body or world?
+float64[3] base_linear_acceleration # body
 
 # Imu
 geometry_msgs/Quaternion imu_orientation
