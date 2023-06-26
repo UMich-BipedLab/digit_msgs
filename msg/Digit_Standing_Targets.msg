@@ -16,3 +16,5 @@ float64 enable_sway_pitch    # toggle for pitch sway
 float64 enable_sway_yaw      # toggle for yaw sway
 float64 enable_sway_crouch   # toggle for crouch sway
 float64 enable_arm_throw     # Action arm throw motion
+float64 fault_detected      # Fault detected
+float64 force_triggered       # Force triggered

@@ -34,3 +34,7 @@ float64[6] y_vc_arm_des
 float64 base_yaw_des
 float64 base_pitch_des
 float64 base_roll_des
+
+# Fault
+float64 fault_detected
+float64 force_triggered
