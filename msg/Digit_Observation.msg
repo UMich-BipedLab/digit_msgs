@@ -13,7 +13,7 @@ float64[3] base_angular_velocity # body or world?
 float64[3] base_linear_acceleration # body
 
 # Imu
-sensor_msgs/Imu imu_base
+sensor_msgs/Imu imu_digit
 geometry_msgs/Quaternion imu_orientation
 float64[3] imu_angular_velocity
 float64[3] imu_linear_acceleration
