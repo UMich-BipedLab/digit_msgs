@@ -47,9 +47,12 @@ float64 Ts  # step period
 float64 step_width
 
 # Terrain
-float64[2] k_world
-float64[2] k_aligned
-float64[2] mu
+float64[] kx_world_traj
+float64[] ky_world_traj
+float64[] kx_aligned_traj
+float64[] ky_aligned_traj
+float64[] mu_traj
+# float64[] mu_y_traj
 
 # Foot placement
 string fp_type

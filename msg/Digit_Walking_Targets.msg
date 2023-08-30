@@ -13,5 +13,6 @@ float32 ufp_y_min_inc   # increment minimum y step
 float32 ufp_y_max_inc   # increment maximum y step 
 float32 alpha_x_inc      # increment kx
 float32 alpha_y_inc      # increment ky
+float32 mu_inc           # increment friction (mu)
 string arm_mode
 
