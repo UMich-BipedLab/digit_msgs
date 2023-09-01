@@ -5,10 +5,12 @@ project(digit_msgs)
 # add_compile_options(-std=c++11)
 
 find_package(catkin REQUIRED COMPONENTS
+  ${CATKIN_PACKAGE_DEPENDENCIES}
   message_generation
   std_msgs
   geometry_msgs
   sensor_msgs
+  convex_plane_decomposition_msgs
 )
 
 ## Generate messages in the 'msg' folder
@@ -22,7 +24,8 @@ add_message_files(
   Digit_Commands.msg
   Digit_Log.msg
   Digit_Standing_Data.msg
-  Digit_Walking_Data.msg)
+  Digit_Walking_Data.msg
+  Digit_Planes.msg)
 
 ## Generate added messages and services with any dependencies listed here
 generate_messages(
@@ -30,9 +33,11 @@ generate_messages(
   std_msgs
   geometry_msgs
   sensor_msgs
+  convex_plane_decomposition_msgs
+  ${CATKIN_PACKAGE_DEPENDENCIES}
 )
 
 catkin_package(
-  CATKIN_DEPENDS std_msgs message_runtime
+  CATKIN_DEPENDS ${CATKIN_PACKAGE_DEPENDENCIES} message_runtime
 )
 

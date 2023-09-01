@@ -1,0 +1,3 @@
+Header header
+convex_plane_decomposition_msgs/PlanarRegion[] PlanarRegions
+geometry_msgs/Vector3[] surface_normal
