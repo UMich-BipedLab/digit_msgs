@@ -15,4 +15,5 @@ float32 alpha_x_inc      # increment kx
 float32 alpha_y_inc      # increment ky
 float32 mu_inc           # increment friction (mu)
 string arm_mode
+float32 vx_offset_inc   # Ly offset for walk in place
 
