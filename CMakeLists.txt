@@ -25,7 +25,9 @@ add_message_files(
   Digit_Log.msg
   Digit_Standing_Data.msg
   Digit_Walking_Data.msg
-  Digit_Planes.msg)
+  Digit_Planes.msg
+  Digit_Online_Fault_Detection.msg
+  )
 
 ## Generate added messages and services with any dependencies listed here
 generate_messages(
