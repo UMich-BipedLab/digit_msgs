@@ -5,6 +5,7 @@ Header header
 
 # Command
 float64[20] command_torque
+float64[20] command_torque_init
 
 # Features
 float64[3] p_com
@@ -22,8 +23,10 @@ float64[3] p_zmp
 
 # time
 float64 time_digit
+bool m_initialized
 
 # Generalized Coordinates
 float64[30] q_all
 float64[30] qdot_all
-
+float64[30] q_init
+float64[30] qdot_init
