@@ -28,6 +28,7 @@ add_message_files(
   Digit_Planes.msg
   Digit_Online_Fault_Detection.msg
   Digit_Force.msg
+  Digit_NN_Model.msg
   )
 
 ## Generate added messages and services with any dependencies listed here
