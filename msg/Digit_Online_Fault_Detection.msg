@@ -9,8 +9,11 @@ float64[20] command_torque_init
 
 # Features
 float64[3] p_com
+float64[3] p_com_init
 float64[3] p_com_rel
+float64[3] p_com_rel_init
 float64[3] v_com
+float64[3] v_com_init
 float64[3] p_rightToeFront
 float64[3] p_leftToeFront
 float64[3] p_rightToeMid
@@ -18,8 +21,10 @@ float64[3] p_leftToeMid
 float64[3] p_rightToeBack
 float64[3] p_leftToeBack
 float64[3] p_contact_point
+float64[3] p_contact_point_init
 float64[3] a_com_filtered
 float64[3] p_zmp
+float64[3] p_zmp_init
 
 # time
 float64 time_digit
